@@ -20,7 +20,7 @@ void PrintArray(int[] col)//метод печати массива на экра
     }
 }
 
-int IndexOf(int[] collection, int find)
+int IndexOf(int[] collection, int find)//возвращающий метод поиска нужной позиции в массиве
 {
     int count=collection.Length;
     int index=0;
