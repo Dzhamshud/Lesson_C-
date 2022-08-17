@@ -32,7 +32,7 @@ int Method3()
 int year = Method3();
 Console.WriteLine(year);
 
-//Вид 3. Что то принимают и что то возвращают
+//Вид 4. Что то принимают и что то возвращают
 string Method4(int count, string text)
 {
     int i = 0;
@@ -50,7 +50,7 @@ Console.WriteLine(res);
 
 
 //Цикл for - самый используемый и краткий в написании
-string Method4(int count, string text)
+string Method(int count, string text)
 {
     string result = string.Empty;
     for (int i = 0; i < count; i++)
@@ -59,8 +59,8 @@ string Method4(int count, string text)
     }
     return result;
 }
-string res = Method4(10, "z");
-//Console.WriteLine(res);
+string res1 = Method(10, "z");
+//Console.WriteLine(res1);
 
 for (int i = 2; i <= 10; i++)//Таблица умножения
 {
@@ -108,6 +108,8 @@ Console.WriteLine(newText);
 Console.WriteLine();
 newText = Replase(text, 'к', 'К');
 Console.WriteLine(newText);
+
+
 
 
 int[] arr = { 2, 5, 7, 9, 3, 1, 4, 8, 6 };
